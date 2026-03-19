@@ -63,7 +63,7 @@ export default function RoadmapPage() {
       } else {
         throw {
           message:
-            "This profile came from the PDF flow. Re-upload the PDF here to generate a roadmap through /api/resume/roadmap.",
+            "This profile came from the PDF flow. Re-upload the PDF here to generate a roadmap from the resume flow.",
         } satisfies ApiError;
       }
 
@@ -95,7 +95,7 @@ export default function RoadmapPage() {
     <div className="space-y-6">
       <PageSection
         title="Roadmap"
-        subtitle="Generate a learning plan from the current profile via POST /api/roadmap/generate or POST /api/resume/roadmap."
+        subtitle="Generate a learning plan from the current profile using either the text profile flow or resume flow."
         action={
           <Button type="button" tone="ghost" onClick={exportRoadmap} disabled={!roadmapResult}>
             Export roadmap
@@ -123,7 +123,7 @@ export default function RoadmapPage() {
             </Field>
             <Field
               label="Optional PDF for roadmap flow"
-              hint="Attach a PDF here to call POST /api/resume/roadmap. Leave empty to use the text profile flow."
+              hint="Attach a PDF here to use the resume flow. Leave empty to use the text profile flow."
             >
               <TextInput
                 type="file"

@@ -77,7 +77,7 @@ export default function InterviewEvaluationPage() {
     <div className="space-y-6">
       <PageSection
         title="Interview Evaluation"
-        subtitle="Capture answers and submit them to POST /api/interview/evaluate."
+        subtitle="Capture answers and submit them for scoring and feedback."
         action={
           <div className="flex gap-3">
             <Button

@@ -69,7 +69,7 @@ export default function AuthPage() {
 
         <PageSection
           title={mode === "login" ? "Sign in" : "Create account"}
-          subtitle="Email/password auth with backend error messaging."
+          subtitle="Email/password access with clear validation and error feedback."
         >
           <div className="space-y-4">
             <div className="inline-flex rounded-full bg-slate-100 p-1">

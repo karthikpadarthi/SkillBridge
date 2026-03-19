@@ -99,7 +99,7 @@ export default function ResumePage() {
     <div className="space-y-6">
       <PageSection
         title="Resume Upload + Analysis"
-        subtitle="Upload a PDF, set the role target, and submit to POST /api/resume/analyze."
+        subtitle="Upload a PDF, set the role target, and generate a resume-based analysis."
         action={
           <Button type="button" tone="ghost" onClick={() => router.push("/roadmap")}>
             Generate roadmap from latest profile

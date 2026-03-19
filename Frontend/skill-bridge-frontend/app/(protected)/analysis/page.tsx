@@ -93,7 +93,7 @@ export default function AnalysisPage() {
     <div className="space-y-6">
       <PageSection
         title="Gap Analysis"
-        subtitle="Paste resume text and GitHub-like details, then submit to POST /api/analyze."
+        subtitle="Paste resume text and GitHub-like details to generate a structured gap analysis."
         action={
           <div className="flex gap-3">
             <Button type="button" tone="ghost" onClick={() => router.push("/roadmap")}>

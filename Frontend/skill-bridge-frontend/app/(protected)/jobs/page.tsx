@@ -87,7 +87,7 @@ export default function JobsPage() {
             <Field label="Role">
               <TextInput value={role} onChange={(event) => setRole(event.target.value)} />
             </Field>
-            <Field label="Source / query" hint="Optional source descriptor for POST /api/jobs/ingest.">
+            <Field label="Source / query" hint="Optional source descriptor for job ingestion.">
               <TextInput value={source} onChange={(event) => setSource(event.target.value)} />
             </Field>
             <div className="flex flex-wrap gap-3">
@@ -118,7 +118,7 @@ export default function JobsPage() {
         </PageSection>
       </div>
 
-      <PageSection title="Aggregated Demand Map" subtitle="Normalized view of role demand from POST /api/jobs/aggregate/{role}.">
+      <PageSection title="Aggregated Demand Map" subtitle="Normalized view of role demand for the selected target role.">
         <KeyValueList data={demandMap} bars />
       </PageSection>
     </div>

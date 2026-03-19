@@ -68,7 +68,7 @@ export default function DashboardPage() {
       </PageSection>
 
       <div className="grid gap-6 xl:grid-cols-[1.15fr_0.85fr]">
-        <PageSection title="Target Roles" subtitle="Fetched from GET /api/roles.">
+        <PageSection title="Target Roles" subtitle="Available role targets from your current catalog.">
           <div className="flex flex-wrap gap-2">
             {roles.length ? (
               roles.map((role) => (
@@ -110,7 +110,7 @@ export default function DashboardPage() {
         </PageSection>
       </div>
 
-      <PageSection title="Actions" subtitle="Launch the key backend-driven flows from here.">
+      <PageSection title="Actions" subtitle="Launch the core product flows from here.">
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           <ActionCard href="/resume" title="Upload Resume" body="Analyze a PDF resume against a target role." />
           <ActionCard href="/analysis" title="Analyze Profile" body="Paste manual text and generate a full gap analysis." />
