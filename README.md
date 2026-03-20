@@ -4,7 +4,9 @@ Candidate Name: `Padarthi Karthik`
 
 Scenario Chosen: `Skill Bridge career transition platform`
 
-Estimated Time Spent: `6-8 hours`
+Estimated Time Spent: `7 hours`
+
+Video Submission: `https://youtu.be/oAz8rhgSVf4`
 
 ## Quick Start
 
