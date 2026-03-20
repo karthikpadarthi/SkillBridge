@@ -77,7 +77,7 @@ The frontend is configured to call the backend at `http://localhost:8081` throug
 
 ## AI Disclosure
 
-Did you use an AI assistant (Copilot, ChatGPT, etc.)? `Yes`
+Did you use an AI assistant (Copilot, ChatGPT, etc.)? `Yes - Partially`
 
 How did you verify the suggestions?
 
