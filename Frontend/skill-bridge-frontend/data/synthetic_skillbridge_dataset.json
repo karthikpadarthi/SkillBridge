@@ -1,0 +1,70 @@
+{
+  "datasetVersion": "1.0",
+  "description": "Synthetic sample data for SkillBridge submission. Contains no real personal data.",
+  "generatedAt": "2026-03-20T00:00:00Z",
+  "profiles": [
+    {
+      "profileId": "SYN-001",
+      "displayName": "Alex Rivera",
+      "targetRole": "Frontend Developer",
+      "resumeText": "Built React dashboards, implemented component libraries, and improved Lighthouse performance.",
+      "githubLikeText": "Contributed to 12 repos focused on TypeScript, testing, and UI architecture.",
+      "currentSkills": ["React", "TypeScript", "CSS", "Jest", "REST APIs"]
+    },
+    {
+      "profileId": "SYN-002",
+      "displayName": "Jordan Kim",
+      "targetRole": "Backend Engineer",
+      "resumeText": "Designed Spring Boot services, wrote SQL queries, and optimized API latency.",
+      "githubLikeText": "Maintains Java microservice templates and CI/CD automation examples.",
+      "currentSkills": ["Java", "Spring Boot", "PostgreSQL", "Docker", "GitHub Actions"]
+    },
+    {
+      "profileId": "SYN-003",
+      "displayName": "Taylor Singh",
+      "targetRole": "Data Analyst",
+      "resumeText": "Built BI dashboards and performed exploratory analysis for product and marketing teams.",
+      "githubLikeText": "Hosts analytics notebooks and SQL practice projects.",
+      "currentSkills": ["SQL", "Python", "Pandas", "Excel", "Data Visualization"]
+    }
+  ],
+  "analysisSamples": [
+    {
+      "profileId": "SYN-001",
+      "coverageScore": 72,
+      "matchedSkills": ["React", "TypeScript", "CSS"],
+      "missingSkills": ["System Design", "Web Security", "Accessibility"],
+      "nextStep": "Generate roadmap",
+      "analysisMode": "AI"
+    },
+    {
+      "profileId": "SYN-002",
+      "coverageScore": 78,
+      "matchedSkills": ["Java", "Spring Boot", "PostgreSQL"],
+      "missingSkills": ["Kafka", "Distributed Systems", "Cloud Security"],
+      "nextStep": "Generate interview questions",
+      "analysisMode": "AI"
+    },
+    {
+      "profileId": "SYN-003",
+      "coverageScore": 69,
+      "matchedSkills": ["SQL", "Python", "Data Visualization"],
+      "missingSkills": ["A/B Testing", "Statistical Inference", "dbt"],
+      "nextStep": "Generate roadmap",
+      "analysisMode": "Fallback"
+    }
+  ],
+  "jobIntelligenceSample": {
+    "role": "Frontend Developer",
+    "ingestedCount": 30,
+    "duplicateSkippedCount": 4,
+    "totalPostings": 26,
+    "avgSourceReliability": 0.84,
+    "topSkills": ["React", "TypeScript", "Next.js", "Testing", "Accessibility"],
+    "sourceQualityBreakdown": {
+      "HIGH": 12,
+      "MEDIUM": 10,
+      "LOW": 4
+    }
+  }
+}
